@@ -1,0 +1,125 @@
+/* ----- <BODY> ----- */
+#wrap {
+  float: left;
+  margin-left: 10px;
+}
+p {
+  font-family: "Baskerville";
+  color: #555;
+  font-size: 90%;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #72B720;
+}
+a:hover {
+  color: #6EC6F1;
+}
+body.home li a {
+  color: #555;
+}
+body.home li a:hover {
+  color: #000;
+}
+
+/* ----- <HEAD> ----- */
+.logo {
+  width: 400px;
+  height: 90px;
+  margin: 0 0 10px 0;
+  float: left;
+  background-color: #d7d7d7;
+}
+.secondNav {
+  width: 400px;
+  height: 90px;
+  margin: 0px 10px 10px 0;
+  float: left;
+  background-color: #d7d7d7;
+}
+.secondNav li {
+  font-weight: bold;
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+  font-size: 120%;
+}
+#secondNav {
+  position: relative;
+  top: 40px;
+  left: 75px;
+}
+
+/* ----- <DISPLAY> ----- */
+.display {
+  width: 800px;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.display h3 {
+  margin-bottom: 0px;
+}
+.display p {
+  margin-top: 0px;
+  padding: 5px;
+}
+.title {
+  font-family: "Trajan Pro";
+  font-weight: bold;
+  font-size: 160%;
+  color: #0080B4;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+span {
+  font-family: "Optima";
+  color: #7a0067;
+  padding: 5px;
+}
+strong {
+  font-size: 200%;
+}
+.equip {
+  margin: 15px 10px 0 0;
+}
+.ol {
+  font-family: "Baskerville";
+  font-size: 95%;
+  color: #8c5900;
+  float: left;
+  margin: 0px 0px 10px 0px;
+}
+.ul {
+  font-family: "Baskerville";
+  font-size: 90%;
+  color: #840045;
+}
+
+
+/* ----- <TABLE> -----*/
+table {
+  font-family: "Arial";
+  font-size: 85%;
+  margin: 0 10 20px 0;
+}
+tr {
+  text-align: center;
+}
+tr.head {
+  background-color: #adcb41;
+}
+tr.even {
+  background-color: #d4cefb;
+}
+
+/* ----- <FOOTER> ----- */
+.feet {
+  width: 800px;
+  height: 75px;
+  background-color: #d7d7d7;
+  padding: 4px;
+  float: left;
+}
+.feet p {
+  text-align: center;
+}

@@ -1,0 +1,100 @@
+/* ----- <BODY> ----- */
+#wrap {
+  float: left;
+  margin-left: 10px;
+}
+p, span {
+  font-family: "Baskerville";
+  color: #555;
+  font-size: 90%;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #72B720;
+}
+a:hover {
+  color: #6EC6F1;
+}
+body.home li a {
+  color: #555;
+}
+body.home li a:hover {
+  color: #000;
+}
+
+
+/* ----- <HEAD> ----- */
+.logo {
+  width: 400px;
+  height: 90px;
+  margin: 0 0 10px 0;
+  float: left;
+  background-color: #d7d7d7;
+}
+.secondNav {
+  width: 400px;
+  height: 90px;
+  margin: 0px 10px 10px 0;
+  float: left;
+  background-color: #d7d7d7;
+}
+.secondNav li {
+  font-weight: bold;
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+  font-size: 120%;
+}
+#secondNav {
+  position: relative;
+  top: 40px;
+  left: 75px;
+}
+
+
+/* ----- <DISPLAY> ----- */
+.leftcol {
+  width: 800px;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.leftcol p {
+  margin: 5px 0 0 0;
+  padding: 0 5px 0 5px;
+}
+#title {
+  font-family: "Trajan Pro";
+  font-weight: bold;
+  font-size: 160%;
+  color: #0080B4;
+  margin: 5px 0 5px 0;
+}
+fieldset {
+  border: solid 0 transparent;
+  margin: 1em 0;
+  padding: 5px 5px 5px 0;
+}
+textarea {
+  width: 400px;
+  height: 150px;
+}
+.form label span {
+  display: block;
+}
+.form {
+  width: 800px;
+  margin: 0 10px 0 0;
+}
+
+
+/* ----- <FOOTER> ----- */
+.feet {
+  width: 800px;
+  height: 75px;
+  background-color: #d7d7d7;
+  padding: 4px;
+  float: left;
+}
+.feet p {
+  text-align: center;
+}

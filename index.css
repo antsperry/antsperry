@@ -1,0 +1,141 @@
+/* ----- <BODY> ----- */
+#wrap {
+  float: left;
+  margin-left: 10px;
+}
+p {
+  font-family: "Optima";
+  color: #555;
+  font-size: 80%;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #72B720;
+}
+a:hover {
+  color: #6EC6F1;
+}
+body.home h3 a {
+  color: #000;
+  padding: 3px;
+  font-family: "Trebuchet MS";
+}
+body.home h3 a:hover {
+  color: #555;
+  padding: 3px;
+  font-family: "Trebuchet MS";
+}
+body.home li a {
+  color: #000;
+}
+body.home li a:hover {
+  color: #fff;
+}
+body {
+  background: url('http://farm4.static.flickr.com/3132/2838358839_57dcaedf0a_o.png');
+}
+
+
+/* ----- <HEAD> ----- */
+.logo {
+  width: 400px;
+  height: 90px;
+  float: left;
+}
+.secondNav {
+  width: 400px;
+  height: 90px;
+  margin: 0px 10px 0 0;
+  float: left;
+  background: url('http://farm4.static.flickr.com/3103/2831482111_1ccf40f97f_o.png');
+}
+.secondNav li {
+  font-family: "Baskerville";
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+  font-size: 130%;
+}
+#secondNav {
+  position: relative;
+  top: 40px;
+  left: 75px;
+}
+
+
+/* ----- <DISPLAY> ----- */
+#display {
+  background-color: #fff;
+}
+.display > * {
+  margin: 10px 10px 10px 0;
+  background-color: #ebecf6;
+  border: 1px solid #d7d7d7;
+}
+.leftcol {
+  width: 237px;
+  height: 300px;
+  float: left;
+}
+.leftcol p {
+  margin: 5px;
+  text-indent: 15px;
+}
+#title {
+  font-family: "Baskerville";
+  font-weight: normal;
+  font-size: 160%;
+  padding-left: 3px;
+  color: #000;
+}
+.rightcol {
+  width: 550px;
+  height: 300px;
+  background: url('http://farm4.static.flickr.com/3296/2794097808_d37ffff152_o.jpg');
+  float: left;
+}
+
+
+/* ----- <NAVIGATION> ----- */
+#nav {
+  background-color: #000;
+}
+#nav > * {
+  width: 192px;
+  margin: 0 10px 10px 0;
+  float: left;
+  background-color: #ebecf6;
+  border: 1px solid #d7d7d7;
+}
+h3 {
+  font-family: "Baskerville";
+  font-weight: normal;
+  margin: 2px 0 5px 0;
+}
+.normal h3 {
+  font-weight: normal;
+}
+.nav p {
+  margin: 10px 5px 5px 5px;
+}
+.contact {
+  margin-left: 3px;
+  float: right;
+}
+.hide {
+  display: none;
+}
+
+
+/* ----- <FOOTER> ----- */
+.feet {
+  width: 790px;
+  height: 75px;
+  background-color: #d7d7d7;
+  padding: 4px;
+  margin-right: 10px;
+  float: left;
+}
+.feet p {
+  text-align: center;
+}
