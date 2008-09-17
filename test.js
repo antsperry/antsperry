@@ -16,4 +16,8 @@ if(now.getHours() >= 12)
 
 $(document).ready(function() {
   jQuery.cssRule("p.imscared", "display", "none");
+  
+  $("h3.head").click(function() {
+    $(this).next("div.body").slideToggle(700).siblings("div.body").slideUp("slow");
+  });
 });
