@@ -31,9 +31,6 @@ body.home li a {
 body.home li a:hover {
   color: #fff;
 }
-body {
-  background: url('http://farm4.static.flickr.com/3132/2838358839_57dcaedf0a_o.png');
-}
 
 
 /* ----- <HEAD> ----- */
@@ -121,9 +118,6 @@ h3 {
 .contact {
   margin-left: 3px;
   float: right;
-}
-.hide {
-  display: none;
 }
 
 
